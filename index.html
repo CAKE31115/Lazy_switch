@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SWITCH CONTROL</title>
+    <link rel="stylesheet"  href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="position-absolute top-0 start-50 translate-middle-x">
+        <h1>Switch control</h1>
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle">
+	<div>
+        <form action="/on1" method="POST">
+            <button type="submit" class="btn btn-primary btn-lg">On</button>
+        </form>
+
+        <form action="/off1" method="POST">
+            <button type="submit" class="btn btn-danger btn-lg">Off</button>
+        </form>
+    	</div>
+
+    	<div>
+        <form action="/on2" method="POST">
+            <button type="submit" class="btn btn-primary btn-lg">On</button>
+        </form>
+
+        <form action="/off2" method="POST">
+            <button type="submit" class="btn btn-danger btn-lg">Off</button>
+        </form>
+    	</div>
+	</div>
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
