@@ -11,7 +11,10 @@
         <h1>Switch control</h1>
     </div>
     <div class="position-absolute top-50 start-50 translate-middle">
-	<div>
+    <div class="container text-center">
+    <div class='row'>
+	<div class='col'>
+	<p>Switch 1</p>
         <form action="/on1" method="POST">
             <button type="submit" class="btn btn-primary btn-lg">On</button>
         </form>
@@ -21,7 +24,8 @@
         </form>
     	</div>
 
-    	<div>
+    	<div class='col'>
+	<p>Switch 2</p>
         <form action="/on2" method="POST">
             <button type="submit" class="btn btn-primary btn-lg">On</button>
         </form>
@@ -30,7 +34,9 @@
             <button type="submit" class="btn btn-danger btn-lg">Off</button>
         </form>
     	</div>
-	</div>
+    </div>
+    </div>
+    </div>
 
     <script src="jquery/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
